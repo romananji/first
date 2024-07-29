@@ -31,5 +31,4 @@ app.get("/notes/",async (request,response)=>{
     `
     const result=await db.all(getQuery);
     response.send(result);
-    console.log(result);
 })
